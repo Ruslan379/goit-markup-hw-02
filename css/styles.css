@@ -1,92 +1,119 @@
 body {
-    /* color: tomato; */
-    color: #212121;
-    background-color: #FFFFFF;
+    color: var(--color-font-main);
+    background-color: var(--color-background-main);
 /* =============================== */
-    --color-main-light: #FFFFFF;
-    --color-main-dark: #000000;
+    --color-light: #FFFFFF;
+    --color-dark: #000000;
 /* =============================== */
     --color-logo-links: #2196F3;
 /* =============================== */
-    /* --color-logohover-bkc: tomato; */
-/* =============================== */
-    --color-background-light1: #E5E5E5;
-    --color-background-light1: #F5F4FA;
-
+    --color-background-main: #E5E5E5;
+    --color-background-light2: #FFFFFF;
+    --color-background-light3: #F5F4FA;
     --color-background-dark1: #2F303A;
 /* =============================== */
-    --color-font-dark1: #212121;
+    --color-font-main: #212121;
     --color-font-dark2: #757575;
-    --color-font-dark3: #75757599;
+    --color-font-dark3: #FFFFFF99;
+/* =============================== */
+    /* --color-logohover-bkc: tomato; */
 /* =============================== */
 }
 
 
+/* ------ Убираем точки со всех списков ------ */
+li {list-style-type:none;}
+
+/* ------ Убираем подчеркивание со всех ссылок ------ */
+a {text-decoration: none;}
 
 
 
 
 
 
-
-
-
-
-
-
-/* ====== стилизация header ====== */
+/* ============================= стилизация header ============================= */
 .headline {
     /* ------ унаследует от body --------- */
-    background-color: var(--color-main-light);
 
+    /* ---------------------------------- */
 }
 
-/* ====== стилизация Основного раздела навигации ====== */
-.headline-navi {
+
+/* ============= стилизация Основного раздела навигации ============= */
+.headline-nav {
     /* ------ унаследует от body --------- */
-    background-color: var(--color-main-light);
-
-}
-
-/* ====== стилизация Контакты в header (почта и телефон) ====== */
-.headline-contacts {
-    /* ------ унаследует от body --------- */
-    background-color: var(--color-main-light);
-
+    /* ---------------------------------- */
 }
 
 
-
-
-
-
-
-/* ====== стилизация логотипа WebStudio in header & footer ====== */
+/* ============ Стилизация логотипа WebStudio in header ============ */
 .logo {
+    /* ------ унаследует от body --------- */
+    /* ---------------------------------- */
     color: var(--color-logo-links);
+    /* text-decoration: none; */
 }
 
 .logo-headline {
-    color: var(--color-main-dark);
+    color: var(--color-dark);
+    /* text-decoration: none; */
 }
 
-.logo-footers {
-    color: var(--color-main-light);
-    /* background-color: var(--color-background-dark1); */
+
+/* ========== Кнопки Основного раздела навигации в header =========== */
+.headline-nav-list-button {
+    /* ------ унаследует от body --------- */
+    /* ---------------------------------- */
+    color: var(--color-font-main);
+    /* text-decoration: none; */
 }
-/* ============= ??????? Hover on LOGO ?????????? =========== */
+
+/* ========= стилизация Контакты в header (почта и телефон) ========= */
+.headline-contacts {
+    /* ------ унаследует от body --------- */
+    /* ---------------------------------- */
+
+    color: var(--color-font-dark2);
+    /* text-decoration: none; */
+}
+
+
+/* ==========  Hover & Focus на ссылках и кнопках в header ========= */
+.headline-nav-list-button:hover,
+.headline-nav-list-button:focus,
+
+.headline-contacts:hover,
+.headline-contacts:focus
+
+{color: var(--color-logo-links);}
+
+
+/* ===== Active on Hover & Focus на ссылках и кнопках в header ==== */
+/* .headline-nav-list-button:active,
+.headline-contacts:active
+{opacity: 0.5;} */
+
+
+/* ============= ??????? Hover & Focus on LOGO ?????????? ========== */
 /* .logo:hover,
 .logo:focus {
-    color: green;
+    color: var(--color-dark);
     background-color: var(--color-logohover-bkc);
 } */
 
 /* .logo-headline:hover,
 .logo-headline:focus {
+    color: var(--color-logo-links);
+    background-color: var(--color-logohover-bkc);
+} */
+
+/* .logo-footers:hover,
+.logo-footers:focus {
     color: green;
     background-color: var(--color-logohover-bkc);
 } */
-/* ============= ???????????????????????????????? =========== */
+/* ================ ???????????????????????????????? ============== */
 
 
 
@@ -96,7 +123,57 @@ body {
 
 
 
-/* ====== стилизация footer ====== */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* =============================== Стилизация footer =============================== */
+/* ====== Цвет фона в footer ====== */
 .footers {
     background-color: var(--color-background-dark1);
 }
+
+/* ===== Стилизация логотипа WebStudio (часть Studio) в footer ===== */
+.logo-footers {
+    color: var(--color-light);
+    /* text-decoration: none; */
+}
+
+
+/* =========== стилизация Адреса в Блоке АДРЕС в footer =========== */
+.footers-place {
+    /* ------ унаследует от footers --------- */
+    /* ---------------------------------- */
+
+    color: var(--color-light);
+    /* text-decoration: none; */
+}
+
+
+/* == стилизация Контакты в Блоке АДРЕС (почта и телефон) в footer == */
+.footers-contacts {
+    /* ------ унаследует от footers --------- */
+    /* ---------------------------------- */
+
+    color: var(--color-font-dark3);
+    /* text-decoration: none; */
+}
+
+.footers-contacts:hover,
+.footers-contacts:focus {
+    color: var(--color-logo-links);
+}
+
+/* ===== Active on Hover & Focus на ссылках и кнопках в header ==== */
+/* .footers-contacts:active 
+{opacity: 0.5;} */
