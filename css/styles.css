@@ -1,0 +1,102 @@
+body {
+    /* color: tomato; */
+    color: #212121;
+    background-color: #FFFFFF;
+/* =============================== */
+    --color-main-light: #FFFFFF;
+    --color-main-dark: #000000;
+/* =============================== */
+    --color-logo-links: #2196F3;
+/* =============================== */
+    /* --color-logohover-bkc: tomato; */
+/* =============================== */
+    --color-background-light1: #E5E5E5;
+    --color-background-light1: #F5F4FA;
+
+    --color-background-dark1: #2F303A;
+/* =============================== */
+    --color-font-dark1: #212121;
+    --color-font-dark2: #757575;
+    --color-font-dark3: #75757599;
+/* =============================== */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ====== стилизация header ====== */
+.headline {
+    /* ------ унаследует от body --------- */
+    background-color: var(--color-main-light);
+
+}
+
+/* ====== стилизация Основного раздела навигации ====== */
+.headline-navi {
+    /* ------ унаследует от body --------- */
+    background-color: var(--color-main-light);
+
+}
+
+/* ====== стилизация Контакты в header (почта и телефон) ====== */
+.headline-contacts {
+    /* ------ унаследует от body --------- */
+    background-color: var(--color-main-light);
+
+}
+
+
+
+
+
+
+
+/* ====== стилизация логотипа WebStudio in header & footer ====== */
+.logo {
+    color: var(--color-logo-links);
+}
+
+.logo-headline {
+    color: var(--color-main-dark);
+}
+
+.logo-footers {
+    color: var(--color-main-light);
+    /* background-color: var(--color-background-dark1); */
+}
+/* ============= ??????? Hover on LOGO ?????????? =========== */
+/* .logo:hover,
+.logo:focus {
+    color: green;
+    background-color: var(--color-logohover-bkc);
+} */
+
+/* .logo-headline:hover,
+.logo-headline:focus {
+    color: green;
+    background-color: var(--color-logohover-bkc);
+} */
+/* ============= ???????????????????????????????? =========== */
+
+
+
+
+
+
+
+
+
+/* ====== стилизация footer ====== */
+.footers {
+    background-color: var(--color-background-dark1);
+}
