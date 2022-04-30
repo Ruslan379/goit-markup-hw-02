@@ -52,11 +52,8 @@ button {cursor: pointer;}
 .headline {}
 
 
-
 /* ======== Стилизация Основного раздела навигации в header ======= */
 .headline-nav {}
-
-
 
 
 /* ============ Стилизация логотипа WebStudio in header ============ */
@@ -148,13 +145,13 @@ button {cursor: pointer;}
     background-color: var(--color-background-footer);
 }
 
-/* ====  == Цвет текста заголовка в ГЕРОЙ ===  === */
+/* ======= Цвет текста заголовка в ГЕРОЙ ======== */
 .mainbase-hero>h1 {
     color: var(--color-light);
 }
 
 
-/* ======= Стилизация кнопки в ГЕРОЙ ======= */
+/* ========== Стилизация кнопки в ГЕРОЙ ========== */
 .mainbase-hero-button {
     color: var(--color-light);
     background-color: var(--color-logo-links-hover);
