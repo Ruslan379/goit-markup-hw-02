@@ -6,7 +6,8 @@ body {
     --color-font-dark2: #757575;
     --color-font-dark3: #FFFFFF99;
 /* =============================== */
-    --color-background-main: #E5E5E5;
+    --color-background-main: #FFFFFF;
+    --color-background-light1: #E5E5E5;
     --color-background-light2: #FFFFFF;
     --color-background-light3: #F5F4FA;
     --color-background-dark1: #2F303A;
@@ -161,6 +162,79 @@ button {cursor: pointer;}
 .mainbase-hero-button:focus {
     background-color: var(--color-button-hover);
 }
+
+
+
+
+
+/* = Стилизация Блок-секция_1 ГЕРОЙ (mainbase-hero) = */
+.mainbase-features {}
+
+.mainbase-features-list {}
+
+
+/* === Стилизация Заголовков h3 в (mainbase-hero) === */
+.mainbase-features-list-content>h3 {
+    color: var(--color-font-main);
+}
+
+/* ==  == Стилизация Текста p в (mainbase-hero) ==== */
+.mainbase-features-list-content>p {
+    color: var(--color-font-dark2);
+}
+
+
+
+
+/* = Стилизация Блок-секция_3 Чем мы занимаемся (mainbase-activities) = */
+.mainbase-activities {}
+
+.mainbase-activities-list {}
+
+
+/* === Стилизация Заголовка h2 в (mainbase-activities) === */
+.mainbase-activities>h2 {
+   /* color: red;
+    font-size: 50px; */
+}
+
+
+
+
+
+
+/* = Стилизация Блок-секция_4 Наша команда (mainbase-team) = */
+.mainbase-team {
+    background-color: var(--color-background-light3);
+}
+
+.mainbase-team-lists {}
+
+
+/* === Стилизация Заголовка h2 в (mainbase-team) === */
+.mainbase-team>h2 {
+    /* color: red;
+    font-size: 50px; */
+}
+
+/* === Стилизация Заголовков h3 в (mainbase-team) === */
+.mainbase-team-list-content>h3 {
+    color: var(--color-font-main);
+}
+
+/* ==  == Стилизация Текста p в (mainbase-team) ==== */
+.mainbase-team-list-content>p {
+    color: var(--color-font-dark2);
+}
+
+/* = Цвет фона Блок-секция_4 Наша команда (mainbase-team) = */
+.mainbase-team-list {
+    background-color: var(--color-background-main);
+}
+
+
+
+
 
 
 
