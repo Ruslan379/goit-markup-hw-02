@@ -130,15 +130,13 @@ button {cursor: pointer;}
 
 
 
-
-/* ============= Стилизация ОСНОВНЫХ Блоков (mainbase & mainportfol)============== */
+/* ========================= Стилизация ОСНОВНОГО Блока (mainbase)========================== */
 .mainbase {}
 
-.mainportfol {}
+/* .mainportfol {} */
 
 
-
-/* ==================== Стилизация Блок-секции_1 ГЕРОЙ (mainbase-hero) ==================== */
+/* ============= Стилизация Блок-секции_1 ГЕРОЙ (mainbase-hero) ============= */
 /* ====== Цвет фона в Блок-секции_1 ГЕРОЙ ====== */
 .mainbase-hero {
     background-color: var(--color-background-dark1);
@@ -150,11 +148,10 @@ button {cursor: pointer;}
 }
 
 
-/* ======= Стилизация кнопки в ГЕРОЙ======= */
+/* ======= Стилизация кнопки в ГЕРОЙ ======= */
 .mainbase-hero-button {
     color: var(--color-light);
     background-color: var(--color-logo-links-hover);
-   
 }
 
 /* =======  Hover & Focus на кнопке в ГЕРОЙ======= */
@@ -162,6 +159,7 @@ button {cursor: pointer;}
 .mainbase-hero-button:focus {
     background-color: var(--color-button-hover);
 }
+
 
 
 
@@ -182,6 +180,8 @@ button {cursor: pointer;}
 .mainbase-features-list-content>p {
     color: var(--color-font-dark2);
 }
+
+
 
 
 
@@ -286,14 +286,65 @@ button {cursor: pointer;}
 {color: var(--color-logo-links-hover);}
 
 
-
-
 /* ===== Active on Hover & Focus на ссылках и кнопках в header ==== */
 /* .footers-contacts:active 
 {opacity: 0.5;} */
 
+/* ____________________________  КОНЕЦ footer ______________________________________ */
 
 
 
 
+
+
+
+
+
+
+
+
+/* ============= Стилизация ОСНОВНОГО Блока (mainportfol)============== */
+/* .mainbase {} */
+
+.mainportfol {}
+
+
+/* == Стилизация Блок-секции ГЕРОЙ ПОРТФОЛИО (mainportfol-hero)=== */
+/* ====== Цвет фона в Блок-секции_1 ГЕРОЙ ====== */
+.mainportfol-hero {}
+
+
+/* === Стилизация кнопки в ГЕРОЙ-ССЫЛКИ (mainportfol-hero-filter)=== */
+.mainportfol-hero-filter-button {
+    color: var(--color-font-main);
+    background-color: var(--color-background-light3);
+   
+}
+
+/* ===  Hover & Focus на кнопках в ГЕРОЙ-ССЫЛКИ (mainportfol-hero-filter) === */
+.mainportfol-hero-filter-button:hover,
+.mainportfol-hero-filter-button:focus {
+    background-color: var(--color-logo-links-hover);
+}
+
+
+/* _____________  КОНЕЦ ___ КНОПКИ (mainportfol-hero-fil____________________________ */
+
+
+
+
+
+/* ==================== Стилизация ПРОЕКТЫ (mainportfol-projects) ==================== */
+.mainportfol-projects-lists {}
+
+
+/* === Стилизация Заголовков h3 в (mainportfol-projects-lists) === */
+.mainportfol-projects-list-content>h3 {
+    color: var(--color-font-main);
+}
+
+/* ==  == Стилизация Текста p в (mainportfol-projects-lists) ==== */
+.mainportfol-projects-list-content>p {
+    color: var(--color-font-dark2);
+}
 
