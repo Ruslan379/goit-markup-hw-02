@@ -1,10 +1,9 @@
 body {
-    color: var(--color-font-main);
-    background-color: var(--color-background-main);
-/* =============================== */
+/* ============ ПЕРЕМЕННЫЕ ============ */
     --color-font-main: #212121;
     --color-font-dark2: #757575;
-    --color-font-dark3: #FFFFFF99;
+    --color-font-dark3: rgba(255, 255, 255, 0.6);
+    /* --color-font-dark3: #FFFFFF99; */
 /* =============================== */
     --color-background-main: #FFFFFF;
     --color-background-light1: #E5E5E5;
@@ -21,6 +20,9 @@ body {
     --color-button-hover: #188CE8;
 /* =============================== */
     /* --color-logohover-bkc: tomato; */
+/* =================================== */
+color: var(--color-font-main);
+background-color: var(--color-background-main);
 /* =============================== */
 }
 
@@ -29,9 +31,10 @@ body {
 
 
 
-/* =================== ГЛОБАЛЬНАЯ Стилизация некоторых элементов =================== */
+/* ============ Типографика - ГЛОБАЛЬНАЯ Стилизация некоторых элементов ============ */
 /* --------- Убираем точки со ВСЕХ списков --------- */
-li {list-style-type:none;}
+/* li {list-style-type:none;} */
+ul {list-style-type: none;}
 
 /* ------ Убираем подчеркивание со ВСЕХ ссылок ------ */
 a {text-decoration: none;}
@@ -46,25 +49,19 @@ button {cursor: pointer;}
 
 
 /* ======================= Стилизация Шапки сайта (headline) ======================= */
-.headline {
-    /* ------ унаследует от body --------- */
-
-    /* ---------------------------------- */
-}
+.headline {}
 
 
 
 /* ======== Стилизация Основного раздела навигации в header ======= */
-.headline-nav {
-    /* ------ унаследует от body --------- */
-    /* ---------------------------------- */
-}
+.headline-nav {}
+
+
+
 
 /* ============ Стилизация логотипа WebStudio in header ============ */
 .logo {
-    /* ------ унаследует от body --------- */
-    /* ---------------------------------- */
-    color: var(--color-logo-links-hover);
+        color: var(--color-logo-links-hover);
 }
 
 .logo-headline {
@@ -73,17 +70,14 @@ button {cursor: pointer;}
 
 /* ==== Стилизация Кнопок Основного раздела навигации в header ===== */
 .headline-nav-list-button {
-    /* ------ унаследует от body --------- */
-    /* ---------------------------------- */
-    color: var(--color-font-main);
+    color: inherit;
+    /* color: var(--color-font-main); */
 }
 
 /* ========= стилизация Контакты в header (почта и телефон) ========= */
 .headline-contacts-email,
 .headline-contacts-tel {
-    /* ------ унаследует от body --------- */
-    /* ---------------------------------- */
-    color: var(--color-font-dark2);
+      color: var(--color-font-dark2);
 }
 
 /* ==========  Hover & Focus на ссылках и кнопках в header ========= */
@@ -165,18 +159,20 @@ button {cursor: pointer;}
 
 
 
-/* = Стилизация Блок-секция_1 ГЕРОЙ (mainbase-hero) = */
+/* = Стилизация Блок-секция_2 Наши особенности (mainbase-features) = */
 .mainbase-features {}
 
 .mainbase-features-list {}
 
 
-/* === Стилизация Заголовков h3 в (mainbase-hero) === */
+/* === Стилизация Заголовков h3 в (ainbase-features) === */
 .mainbase-features-list-content>h3 {
+    /* color: inherit; */
     color: var(--color-font-main);
+    
 }
 
-/* ==  == Стилизация Текста p в (mainbase-hero) ==== */
+/* ==  == Стилизация Текста p в (ainbase-features) ==== */
 .mainbase-features-list-content>p {
     color: var(--color-font-dark2);
 }
@@ -219,6 +215,7 @@ button {cursor: pointer;}
 
 /* === Стилизация Заголовков h3 в (mainbase-team) === */
 .mainbase-team-list-content>h3 {
+    /* color: inherit; */
     color: var(--color-font-main);
 }
 
@@ -309,14 +306,15 @@ button {cursor: pointer;}
 .mainportfol {}
 
 
-/* == Стилизация Блок-секции ГЕРОЙ ПОРТФОЛИО (mainportfol-hero)=== */
+/* == Стилизация Блок-секции ГЕРОЙ-ПОРТФОЛИО (mainportfol-hero)=== */
 /* ====== Цвет фона в Блок-секции_1 ГЕРОЙ ====== */
 .mainportfol-hero {}
 
 
-/* === Стилизация кнопки в ГЕРОЙ-ССЫЛКИ (mainportfol-hero-filter)=== */
+/* === Стилизация кнопок в ГЕРОЙ-ССЫЛКИ (mainportfol-hero-filter)=== */
 .mainportfol-hero-filter-button {
-    color: var(--color-font-main);
+    color: inherit;
+    /* color: var(--color-font-main); */
     background-color: var(--color-background-light3);
    
 }
@@ -340,6 +338,7 @@ button {cursor: pointer;}
 
 /* === Стилизация Заголовков h3 в (mainportfol-projects-lists) === */
 .mainportfol-projects-list-content>h3 {
+    /* color: inherit; */
     color: var(--color-font-main);
 }
 
