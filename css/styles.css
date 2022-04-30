@@ -1,25 +1,25 @@
 body {
 /* ============ ПЕРЕМЕННЫЕ ============ */
     --color-font-main: #212121;
-    --color-font-dark2: #757575;
-    --color-font-dark3: rgba(255, 255, 255, 0.6);
-    /* --color-font-dark3: #FFFFFF99; */
+    --color-font-head: #757575;
+    --color-font-footer: rgba(255, 255, 255, 0.6);
+    /* --color-font-footer: #FFFFFF99; */
 /* =============================== */
     --color-background-main: #FFFFFF;
-    --color-background-light1: #E5E5E5;
-    --color-background-light2: #FFFFFF;
-    --color-background-light3: #F5F4FA;
-    --color-background-dark1: #2F303A;
+    --color-background-another: #E5E5E5;
+    --color-background-team: #F5F4FA;
+    --color-background-footer: #2F303A;
 /* =============================== */
     --color-light: #FFFFFF;
     --color-dark: #000000;
 /* =============================== */
+    --color-borders-portfolio: #EEEEEE;
     --color-border-line: #ECECEC;
 /* =============================== */
     --color-logo-links-hover: #2196F3;
     --color-button-hover: #188CE8;
 /* =============================== */
-    /* --color-logohover-bkc: tomato; */
+    --color-logohover-bkc: tomato;
 /* =================================== */
 color: var(--color-font-main);
 background-color: var(--color-background-main);
@@ -74,13 +74,25 @@ button {cursor: pointer;}
     /* color: var(--color-font-main); */
 }
 
+/* ==== Выделение цветом активной страници в header в (headline) ===== */
+.headline-nav-list-button.activlink {
+    color: var(--color-button-hover);
+    /* text-decoration-line:underline; */
+    /* color: var(--color-logohover-bkc); */
+}
+
+
+
 /* ========= стилизация Контакты в header (почта и телефон) ========= */
 .headline-contacts-email,
 .headline-contacts-tel {
-      color: var(--color-font-dark2);
+    color: var(--color-font-head);
 }
 
 /* ==========  Hover & Focus на ссылках и кнопках в header ========= */
+.headline-nav-list-button.activlink:hover,
+.headline-nav-list-button.activlink:focus,
+
 .headline-nav-list-button:hover,
 .headline-nav-list-button:focus,
 
@@ -133,7 +145,7 @@ button {cursor: pointer;}
 /* ============= Стилизация Блок-секции_1 ГЕРОЙ (mainbase-hero) ============= */
 /* ====== Цвет фона в Блок-секции_1 ГЕРОЙ ====== */
 .mainbase-hero {
-    background-color: var(--color-background-dark1);
+    background-color: var(--color-background-footer);
 }
 
 /* ====  == Цвет текста заголовка в ГЕРОЙ ===  === */
@@ -174,7 +186,7 @@ button {cursor: pointer;}
 
 /* ==  == Стилизация Текста p в (ainbase-features) ==== */
 .mainbase-features-list-content>p {
-    color: var(--color-font-dark2);
+    color: var(--color-font-head);
 }
 
 
@@ -201,7 +213,7 @@ button {cursor: pointer;}
 
 /* = Стилизация Блок-секция_4 Наша команда (mainbase-team) = */
 .mainbase-team {
-    background-color: var(--color-background-light3);
+    background-color: var(--color-background-team);
 }
 
 .mainbase-team-lists {}
@@ -221,7 +233,7 @@ button {cursor: pointer;}
 
 /* ==  == Стилизация Текста p в (mainbase-team) ==== */
 .mainbase-team-list-content>p {
-    color: var(--color-font-dark2);
+    color: var(--color-font-head);
 }
 
 /* = Цвет фона Блок-секция_4 Наша команда (mainbase-team) = */
@@ -240,13 +252,10 @@ button {cursor: pointer;}
 
 
 
-
-
-
 /* =============================== Стилизация footer =============================== */
 /* ====== Цвет фона в footer ====== */
 .footers {
-    background-color: var(--color-background-dark1);
+    background-color: var(--color-background-footer);
 }
 
 
@@ -269,7 +278,7 @@ button {cursor: pointer;}
 .footers-contacts-tel {
     /* ------ унаследует от footers --------- */
     /* ---------------------------------- */
-    color: var(--color-font-dark3);
+    color: var(--color-font-footer);
 }
 
 
@@ -315,7 +324,7 @@ button {cursor: pointer;}
 .mainportfol-hero-filter-button {
     color: inherit;
     /* color: var(--color-font-main); */
-    background-color: var(--color-background-light3);
+    background-color: var(--color-background-team);
    
 }
 
@@ -344,6 +353,6 @@ button {cursor: pointer;}
 
 /* ==  == Стилизация Текста p в (mainportfol-projects-lists) ==== */
 .mainportfol-projects-list-content>p {
-    color: var(--color-font-dark2);
+    color: var(--color-font-head);
 }
 
