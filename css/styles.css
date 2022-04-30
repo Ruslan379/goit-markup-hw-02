@@ -2,37 +2,49 @@ body {
     color: var(--color-font-main);
     background-color: var(--color-background-main);
 /* =============================== */
-    --color-light: #FFFFFF;
-    --color-dark: #000000;
-/* =============================== */
-    --color-logo-links: #2196F3;
+    --color-font-main: #212121;
+    --color-font-dark2: #757575;
+    --color-font-dark3: #FFFFFF99;
 /* =============================== */
     --color-background-main: #E5E5E5;
     --color-background-light2: #FFFFFF;
     --color-background-light3: #F5F4FA;
     --color-background-dark1: #2F303A;
 /* =============================== */
-    --color-font-main: #212121;
-    --color-font-dark2: #757575;
-    --color-font-dark3: #FFFFFF99;
+    --color-light: #FFFFFF;
+    --color-dark: #000000;
+/* =============================== */
+    --color-border-line: #ECECEC;
+/* =============================== */
+    --color-logo-links-hover: #2196F3;
+    --color-button-hover: #188CE8;
 /* =============================== */
     /* --color-logohover-bkc: tomato; */
 /* =============================== */
 }
 
 
-/* ------ Убираем точки со всех списков ------ */
+
+
+
+
+/* =================== ГЛОБАЛЬНАЯ Стилизация некоторых элементов =================== */
+/* --------- Убираем точки со ВСЕХ списков --------- */
 li {list-style-type:none;}
 
-/* ------ Убираем подчеркивание со всех ссылок ------ */
+/* ------ Убираем подчеркивание со ВСЕХ ссылок ------ */
 a {text-decoration: none;}
 
+/* --- Задаем ВСЕМ кнопкам тип курсора pointer ------ */
+button {cursor: pointer;}
 
 
 
 
 
-/* ============================= стилизация header ============================= */
+
+
+/* ======================= Стилизация Шапки сайта (headline) ======================= */
 .headline {
     /* ------ унаследует от body --------- */
 
@@ -40,58 +52,55 @@ a {text-decoration: none;}
 }
 
 
-/* ============= стилизация Основного раздела навигации ============= */
+
+/* ======== Стилизация Основного раздела навигации в header ======= */
 .headline-nav {
     /* ------ унаследует от body --------- */
     /* ---------------------------------- */
 }
 
-
 /* ============ Стилизация логотипа WebStudio in header ============ */
 .logo {
     /* ------ унаследует от body --------- */
     /* ---------------------------------- */
-    color: var(--color-logo-links);
-    /* text-decoration: none; */
+    color: var(--color-logo-links-hover);
 }
 
 .logo-headline {
     color: var(--color-dark);
-    /* text-decoration: none; */
 }
 
-
-/* ========== Кнопки Основного раздела навигации в header =========== */
+/* ==== Стилизация Кнопок Основного раздела навигации в header ===== */
 .headline-nav-list-button {
     /* ------ унаследует от body --------- */
     /* ---------------------------------- */
     color: var(--color-font-main);
-    /* text-decoration: none; */
 }
 
 /* ========= стилизация Контакты в header (почта и телефон) ========= */
-.headline-contacts {
+.headline-contacts-email,
+.headline-contacts-tel {
     /* ------ унаследует от body --------- */
     /* ---------------------------------- */
-
     color: var(--color-font-dark2);
-    /* text-decoration: none; */
 }
-
 
 /* ==========  Hover & Focus на ссылках и кнопках в header ========= */
 .headline-nav-list-button:hover,
 .headline-nav-list-button:focus,
 
-.headline-contacts:hover,
-.headline-contacts:focus
+.headline-contacts-email:hover,
+.headline-contacts-email:focus,
 
-{color: var(--color-logo-links);}
+.headline-contacts-tel:hover,
+.headline-contacts-tel:focus
+
+{color: var(--color-logo-links-hover);}
 
 
 /* ===== Active on Hover & Focus на ссылках и кнопках в header ==== */
 /* .headline-nav-list-button:active,
-.headline-contacts:active
+.headline-contacts-email:active
 {opacity: 0.5;} */
 
 
@@ -104,7 +113,7 @@ a {text-decoration: none;}
 
 /* .logo-headline:hover,
 .logo-headline:focus {
-    color: var(--color-logo-links);
+    color: var(--color-logo-links-hover);
     background-color: var(--color-logohover-bkc);
 } */
 
@@ -121,11 +130,37 @@ a {text-decoration: none;}
 
 
 
+/* ============= Стилизация ОСНОВНЫХ Блоков (mainbase & mainportfol)============== */
+.mainbase {}
+
+.mainportfol {}
 
 
 
+/* ==================== Стилизация Блок-секции_1 ГЕРОЙ (mainbase-hero) ==================== */
+/* ====== Цвет фона в Блок-секции_1 ГЕРОЙ ====== */
+.mainbase-hero {
+    background-color: var(--color-background-dark1);
+}
+
+/* ====  == Цвет текста заголовка в ГЕРОЙ ===  === */
+.mainbase-hero>h1 {
+    color: var(--color-light);
+}
 
 
+/* ======= Стилизация кнопки в ГЕРОЙ======= */
+.mainbase-hero-button {
+    color: var(--color-light);
+    background-color: var(--color-logo-links-hover);
+   
+}
+
+/* =======  Hover & Focus на кнопке в ГЕРОЙ======= */
+.mainbase-hero-button:hover,
+.mainbase-hero-button:focus {
+    background-color: var(--color-button-hover);
+}
 
 
 
@@ -143,37 +178,48 @@ a {text-decoration: none;}
     background-color: var(--color-background-dark1);
 }
 
-/* ===== Стилизация логотипа WebStudio (часть Studio) в footer ===== */
+
+/* == Стилизация части логотипа WebStudio (часть Studio) в footer == */
 .logo-footers {
     color: var(--color-light);
-    /* text-decoration: none; */
 }
 
 
 /* =========== стилизация Адреса в Блоке АДРЕС в footer =========== */
-.footers-place {
+.footers-contacts-place {
     /* ------ унаследует от footers --------- */
     /* ---------------------------------- */
-
     color: var(--color-light);
-    /* text-decoration: none; */
 }
 
 
 /* == стилизация Контакты в Блоке АДРЕС (почта и телефон) в footer == */
-.footers-contacts {
+.footers-contacts-email,
+.footers-contacts-tel {
     /* ------ унаследует от footers --------- */
     /* ---------------------------------- */
-
     color: var(--color-font-dark3);
-    /* text-decoration: none; */
 }
 
-.footers-contacts:hover,
-.footers-contacts:focus {
-    color: var(--color-logo-links);
-}
+
+/* ======  Hover & Focus на ссылках (почта и телефон) в footer ===== */
+.footers-contacts-email:hover,
+.footers-contacts-email:focus,
+
+.footers-contacts-tel:hover,
+.footers-contacts-tel:focus
+
+{color: var(--color-logo-links-hover);}
+
+
+
 
 /* ===== Active on Hover & Focus на ссылках и кнопках в header ==== */
 /* .footers-contacts:active 
 {opacity: 0.5;} */
+
+
+
+
+
+
