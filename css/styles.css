@@ -21,8 +21,8 @@ body {
 /* =============================== */
     --color-logohover-bkc: tomato;
 /* =================================== */
-color: var(--color-font-main);
-background-color: var(--color-background-main);
+    color: var(--color-font-main);
+    background-color: var(--color-background-main);
 /* =============================== */
     font-family: Roboto, Arial, Helvetica, sans-serif;
   
@@ -33,7 +33,7 @@ background-color: var(--color-background-main);
 
 
 
-/* ============ Типографика - ГЛОБАЛЬНАЯ Стилизация некоторых элементов ============ */
+/* ======= Типографика - ГЛОБАЛЬНАЯ Стилизация некоторых элементов ======= */
 /* --------- Убираем точки со ВСЕХ списков --------- */
 /* li {list-style-type:none;} */
 ul {list-style-type: none;}
@@ -68,14 +68,18 @@ button {cursor: pointer;}
     letter-spacing: 0.03em;
 }
 
-/* === Установка цвета текста для логотипа WebStudio in header === */
+
+/* == Цвет текста WebStudio (WebStudio - голубая) в header == */
 .logo {
-        color: var(--color-logo-links-hover);
+    color: var(--color-logo-links-hover);
 }
 
+
+/* == Замена цвета текста WebStudio (часть Studio - на черную) в header == */
 .logo-headline {
     color: var(--color-dark);
 }
+
 
 /* ==== Стилизация Кнопок Основного раздела навигации в header ===== */
 /* === Стилизация шрифта Кнопок Основного раздела навигации и (почта и телефон) в header === */
@@ -93,6 +97,7 @@ button {cursor: pointer;}
     /* color: var(--color-font-main); */
 }
 
+
 /* ==== Выделение цветом активной страници в header в (headline) ===== */
 .headline-nav-list-button.activlink {
     color: var(--color-button-hover);
@@ -102,11 +107,8 @@ button {cursor: pointer;}
 
 
 
-/* ========= Стилизация Контакты в header (почта и телефон) ========= */
-/* === Стилизация шрифта Контакты в header (почта и телефон) === */
-
-
-
+/* ========= Стилизация Контакты (почта и телефон) в header ========= */
+/* === Цвет шрифтов (почта и телефон) в header === */
 .headline-contacts-email,
 .headline-contacts-tel {
     color: var(--color-font-head);
@@ -154,6 +156,9 @@ button {cursor: pointer;}
 } */
 /* ================ ???????????????????????????????? ============== */
 
+/* _____________________________  К О Н Е Ц   (header) _____________________________ */
+
+
 
 
 
@@ -171,14 +176,30 @@ button {cursor: pointer;}
     background-color: var(--color-background-footer);
 }
 
-/* ======= Цвет текста заголовка в ГЕРОЙ ======== */
+/* ======= Цвет  и текст заголовка в ГЕРОЙ ======== */
 .mainbase-hero>h1 {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.37;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+
     color: var(--color-light);
 }
 
 
 /* ========== Стилизация кнопки в ГЕРОЙ ========== */
 .mainbase-hero-button {
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    /* display: flex; */
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+
     color: var(--color-light);
     background-color: var(--color-logo-links-hover);
 }
@@ -265,7 +286,7 @@ button {cursor: pointer;}
 }
 
 
-
+/* __________++________ К о н е ц   ОСНОВНОГО Блока (mainbase) _______++___________ */
 
 
 
@@ -282,7 +303,7 @@ button {cursor: pointer;}
 }
 
 
-/* == Стилизация части логотипа WebStudio (часть Studio) в footer == */
+/* == Замена цвета текста WebStudio (часть Studio - на белую) в footer == */
 .logo-footers {
     color: var(--color-light);
 }
@@ -297,13 +318,13 @@ button {cursor: pointer;}
     line-height: 1.71;
     letter-spacing: 0.03em;
 }
-
+/* ======== Цвет шрифта Адрес в Блоке АДРЕС в footer ======== */
 .footers-contacts-place {
     color: var(--color-light);
 }
 
 
-/* == стилизация Контакты в Блоке АДРЕС (почта и телефон) в footer == */
+/* == Цвет шрифта (почта и телефон) в Блоке АДРЕС  в footer == */
 .footers-contacts-email,
 .footers-contacts-tel {
     color: var(--color-font-footer);
@@ -384,3 +405,4 @@ button {cursor: pointer;}
     color: var(--color-font-head);
 }
 
+ /* __________________ К о н е ц    ОСНОВНОГО Блока (mainportfol) __________________ */
