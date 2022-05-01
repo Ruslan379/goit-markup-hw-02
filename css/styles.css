@@ -19,15 +19,15 @@ body {
     --color-logo-links-hover: #2196F3;
     --color-button-hover: #188CE8;
 /* =============================== */
-    --color-logohover-bkc: tomato;
+    /* --color-logohover-bkc: tomato; */
 /* =================================== */
     color: var(--color-font-main);
     background-color: var(--color-background-main);
 /* =============================== */
     font-family: Roboto, Arial, Helvetica, sans-serif;
-    /* font-size: 14px; */
-    /* line-height: 1.71; */
-    /* letter-spacing: 0.03em; */
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
 }
 
 
@@ -36,8 +36,8 @@ body {
 
 
 /* ======= Типографика - ГЛОБАЛЬНАЯ Стилизация некоторых элементов ======= */
+
 /* --------- Убираем точки со ВСЕХ списков --------- */
-/* li {list-style-type:none;} */
 ul {list-style-type: none;}
 
 /* ------ Убираем подчеркивание со ВСЕХ ссылок ------ */
@@ -53,55 +53,34 @@ button {cursor: pointer;}
 
 
 /* ======================= Стилизация Шапки сайта (headline) ======================= */
-.headline {}
-
-
-/* ======== Стилизация Основного раздела навигации в header ======= */
-.headline-nav {}
-
 
 /* ============ Стилизация логотипа WebStudio in header ============ */
-/* ====== Стилизация шрифта для логотипа WebStudio in header ====== */
-.logo-fontstyle {
-    font-family: Raleway;
+.logo {
+    font-family: 'Raleway';
     font-weight: 700;
     font-size: 26px;
-    line-height: 1.35;
-    letter-spacing: 0.03em;
-}
-
-
-/* == Цвет текста WebStudio (WebStudio - голубая) в header == */
-.logo {
+    line-height: 1.19;
+   
     color: var(--color-logo-links-hover);
 }
 
-
 /* == Замена цвета текста WebStudio (часть Studio - на черную) в header == */
-.logo-headline {
+.logo-black {
     color: var(--color-dark);
 }
 
 
 /* ==== Стилизация Кнопок Основного раздела навигации в header ===== */
-/* === Стилизация шрифта Кнопок Основного раздела навигации и (почта и телефон) в header === */
-.contacts-fontstyle {
+.navlinks {
     font-weight: 500;
-    font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
-}
-
-
-/* === Установка цвета Кнопок Основного раздела навигации в header === */
-.headline-nav-list-button {
+    
     color: inherit;
-    /* color: var(--color-font-main); */
 }
-
 
 /* ==== Выделение цветом активной страници в header в (headline) ===== */
-.headline-nav-list-button.activlink {
+.navlinks.activlink {
     color: var(--color-button-hover);
     /* text-decoration-line:underline; */
     /* color: var(--color-logohover-bkc); */
@@ -117,11 +96,11 @@ button {cursor: pointer;}
 }
 
 /* ==========  Hover & Focus на ссылках и кнопках в header ========= */
-.headline-nav-list-button.activlink:hover,
-.headline-nav-list-button.activlink:focus,
+.navlinks.activlink:hover,
+.navlinks.activlink:focus,
 
-.headline-nav-list-button:hover,
-.headline-nav-list-button:focus,
+.navlinks:hover,
+.navlinks:focus,
 
 .headline-contacts-email:hover,
 .headline-contacts-email:focus,
@@ -133,7 +112,7 @@ button {cursor: pointer;}
 
 
 /* ===== Active on Hover & Focus на ссылках и кнопках в header ==== */
-/* .headline-nav-list-button:active,
+/* .navlinks:active,
 .headline-contacts-email:active
 {opacity: 0.5;} */
 
@@ -145,14 +124,14 @@ button {cursor: pointer;}
     background-color: var(--color-logohover-bkc);
 } */
 
-/* .logo-headline:hover,
-.logo-headline:focus {
+/* .logo-black:hover,
+.logo-black:focus {
     color: var(--color-logo-links-hover);
     background-color: var(--color-logohover-bkc);
 } */
 
-/* .logo-footers:hover,
-.logo-footers:focus {
+/* .logo-white:hover,
+.logo-white:focus {
     color: green;
     background-color: var(--color-logohover-bkc);
 } */
@@ -306,7 +285,7 @@ button {cursor: pointer;}
 
 
 /* == Замена цвета текста WebStudio (часть Studio - на белую) в footer == */
-.logo-footers {
+.logo-white {
     color: var(--color-light);
 }
 

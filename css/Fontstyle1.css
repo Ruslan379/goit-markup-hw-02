@@ -3,7 +3,7 @@
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~ УНИКАЛЬНЫЕ СТИЛИ  ~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 
 /* ~~~~~~~ (ЛОГОТИП) в header & footer в index.html & portfolio.html  ~~~~~~~*/
-/* ~~~~~~~  уникальный класс (logos) ~~~~~~~*/
+/* ~~~~~~~  уникальный класс (logo)+ ~~~~~~~*/
 .index-header-logo,
 .index-footer-logo,
 .portfolio-header-logo,
@@ -19,7 +19,7 @@
 }
 
 /* ~~~~~~~~~~~~  (Ссылки) в header в index.html & portfolio.html  ~~~~~~~~~~~~*/
-/* ~~~~~~~  уникальный класс (links) ~~~~~~~*/
+/* ~~~~~~~  уникальный класс (navlinks)+ ~~~~~~~*/
 .index-header-studio,
 .index-header-portfolio,
 .index-header-contacts,
