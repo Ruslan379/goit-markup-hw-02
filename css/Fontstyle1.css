@@ -1,0 +1,225 @@
+/* ````````` Палитра стилей шрифтов (index.html & portfolio.html ) `````````` */
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~ УНИКАЛЬНЫЕ СТИЛИ  ~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+/* ~~~~~~~ (ЛОГОТИП) в header & footer в index.html & portfolio.html  ~~~~~~~*/
+/* ~~~~~~~  уникальный класс (logo) ~~~~~~~*/
+.index-header-logo,
+.index-footer-logo,
+.portfolio-header-logo,
+.portfolio-footer-logo {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+
+    color: #2196F3;
+}
+
+/* ~~~~~~~~~~~~  (Ссылки) в header в index.html & portfolio.html  ~~~~~~~~~~~~*/
+/* ~~~~~~~  уникальный класс (links) ~~~~~~~*/
+.index-header-studio,
+.index-header-portfolio,
+.index-header-contacts,
+.portfolio-header-studio,
+.portfolio-header-portfolio,
+.portfolio-header-contacts {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+
+    color: #212121;
+}
+
+/* ~~~~~~~ (почта и телефон) в header в index.html & portfolio.html  ~~~~~~~*/
+/* ~~~~~~~  уникальный класс (contacts-header) ~~~~~~~*/
+.index-header-email,
+.index-header-tel,
+.portfolio-header-email,
+.portfolio-header-tel {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+
+    color: #757575;
+}
+
+/* ~~~~~~~ (почта и телефон) в footer в index.html & portfolio.html  ~~~~~~~*/
+/* ~~~~~~~  уникальный класс (contacts-footer) ~~~~~~~*/
+.index-footer-email,
+.index-footer-tel,
+.portfolio-footer-email,
+.portfolio-footer-tel {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71px;
+    letter-spacing: 0.03em;
+
+    color: rgba(255, 255, 255, 0.6);
+}
+
+/* ~~~~~~~ Строка АДРЕС в footer в index.html & portfolio.html  ~~~~~~~*/
+/* ~~~~~~~  уникальный класс (address) ~~~~~~~*/
+.index-footer-address,
+.portfolio-footer-address {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71x;
+    letter-spacing: 0.03em;
+
+    color: #FFFFFF;
+}
+
+/* ~~~~~~~~~~~~~~~~ Заголовок h1 в HERO в index.html  ~~~~~~~~~~~~~~~~*/
+/* ~~~~~~~  уникальный класс (title-hero) ~~~~~~~*/
+.hero-titleh1 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+
+/* ~~~~~~~~~~~~~~~~ Кнопка "Заказать услугу" в HERO в index.html  ~~~~~~~~~~~~~~~~*/
+/* ~~~~~~~  уникальный класс (button-hero) ~~~~~~~*/
+.hero-button {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88x;
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+
+    color: #FFFFFF;
+}
+
+/* ~~~~~~~~~~~~ Заголовок h2 в ОСОБЕННОСТИ (features) в index.html  ~~~~~~~~~~~~*/
+/* ~~~~~~~  уникальный класс (title-features) ~~~~~~~*/
+.features-titleh2 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+
+    color: #212121;
+}
+/* ~~~~~~~~~~~~ Текст в ОСОБЕННОСТИ (features) в index.html  ~~~~~~~~~~~~*/
+/* ~~~~~~~  уникальный класс (text-features) ~~~~~~~*/
+.features-text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+
+    color: #757575;
+}
+/* ~~~~~~~~~~~~ Текст в Наша команда (team) в index.html  ~~~~~~~~~~~~*/
+/* ~~~~~~~  уникальный класс (position) ~~~~~~~*/
+.team-text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+
+    color: #757575;
+}
+
+/* ~~~ Заголовки h2 в ЧЕМ МЫ ЗАНИМАЕМСЯ (activities) и в Наша команда (team) в index.html  ~~~*/
+/* ~~~~~~~  уникальный класс (titles) ~~~~~~~*/
+.activities-titleh2,
+.team-titleh2 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.67;
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    color: #212121;
+}
+
+/* ~~~ Заголовок h3 в Наша команда (team) в index.html  ~~~*/
+/* ~~~~~~~  уникальный класс (full-name) ~~~~~~~*/
+.team-titleh3 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    color: #212121;
+}
+/* ~~~~~~~~~~~~~~~~~~~ Кнопки в ГЕРОЙ-ССЫЛКИ в portfolio.html  ~~~~~~~~~~~~~~~~~~~*/
+/* ~~~~~~~  уникальный класс (filters) ~~~~~~~*/
+.filters {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    color: #212121;
+}
+/* ~~~~~~~~~~~~~~~~~~~ ЗАГОЛОВОК ПРОЕКТА в ГЕРОЙ в portfolio.html  ~~~~~~~~~~~~~~~~~~~*/
+/* ~~~~~~~  уникальный класс (titlе-project) ~~~~~~~*/
+.projects-titleh2 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2.0;
+    letter-spacing: 0.06em;
+
+    color: #212121;
+}
+
+/* ~~~~~~~~~~~~~~~~~~~ ЗАГОЛОВОК ФИЛЬТРА в ГЕРОЙ в portfolio.html  ~~~~~~~~~~~~~~~~~~~*/
+/* ~~~~~~~  уникальный класс (titlе-filter) ~~~~~~~*/
+.projects-titles {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.03em;
+
+    color: #757575;
+}
+
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ К О Н Е Ц  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ К О Н Е Ц  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ К О Н Е Ц  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/

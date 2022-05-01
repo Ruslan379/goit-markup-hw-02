@@ -221,7 +221,7 @@
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
-    line-height: 1.18;
+    line-height: 1.9;
     text-align: center;
     letter-spacing: 0.03em;
     
@@ -232,13 +232,10 @@
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
-    font-size: 1.18;
-    line-height: 19px;
-    /* identical to box height */
-    
-    text-align: center;
+    font-size: 16px;
+    line-height: 1.19;
     letter-spacing: 0.03em;
-    
+
     color: #757575;
 }
 /* ~~~~~~~~~~~~~~~~~ К О Н Е Ц index.html (main-team) ~~~~~~~~~~~~~~~~~*/
