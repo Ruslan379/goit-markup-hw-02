@@ -13,8 +13,8 @@ body {
     --color-light: #FFFFFF;
     --color-dark: #000000;
 /* =============================== */
-    --color-borders-portfolio: #EEEEEE;
     --color-border-line: #ECECEC;
+    --color-borders-portfolio: #EEEEEE;
 /* =============================== */
     --color-logo-links-hover: #2196F3;
     --color-button-hover: #188CE8;
@@ -174,14 +174,14 @@ button {cursor: pointer;}
 .mainbase-features-list {}
 
 
-/* === Стилизация Заголовков h3 в (ainbase-features) === */
+/* === Стилизация Заголовков h3 в (mainbase-features) === */
 .mainbase-features-list-content>h3 {
     /* color: inherit; */
     color: var(--color-font-main);
     
 }
 
-/* ==  == Стилизация Текста p в (ainbase-features) ==== */
+/* ==  == Стилизация Текста p в (mainbase-features) ==== */
 .mainbase-features-list-content>p {
     color: var(--color-font-head);
 }
@@ -342,8 +342,8 @@ button {cursor: pointer;}
 .mainportfol-projects-lists {}
 
 
-/* === Стилизация Заголовков h3 в (mainportfol-projects-lists) === */
-.mainportfol-projects-list-content>h3 {
+/* === Стилизация Заголовков h2 в (mainportfol-projects-lists) === */
+.mainportfol-projects-list-content>h2 {
     /* color: inherit; */
     color: var(--color-font-main);
 }
