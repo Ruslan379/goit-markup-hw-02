@@ -24,6 +24,8 @@ body {
 color: var(--color-font-main);
 background-color: var(--color-background-main);
 /* =============================== */
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+  
 }
 
 
@@ -57,6 +59,16 @@ button {cursor: pointer;}
 
 
 /* ============ Стилизация логотипа WebStudio in header ============ */
+/* ====== Стилизация шрифта для логотипа WebStudio in header ====== */
+.logo-fontstyle {
+    font-family: Raleway;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.35;
+    letter-spacing: 0.03em;
+}
+
+/* === Установка цвета текста для логотипа WebStudio in header === */
 .logo {
         color: var(--color-logo-links-hover);
 }
@@ -66,6 +78,16 @@ button {cursor: pointer;}
 }
 
 /* ==== Стилизация Кнопок Основного раздела навигации в header ===== */
+/* === Стилизация шрифта Кнопок Основного раздела навигации и (почта и телефон) в header === */
+.contacts-fontstyle {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+
+
+/* === Установка цвета Кнопок Основного раздела навигации в header === */
 .headline-nav-list-button {
     color: inherit;
     /* color: var(--color-font-main); */
@@ -80,7 +102,11 @@ button {cursor: pointer;}
 
 
 
-/* ========= стилизация Контакты в header (почта и телефон) ========= */
+/* ========= Стилизация Контакты в header (почта и телефон) ========= */
+/* === Стилизация шрифта Контакты в header (почта и телефон) === */
+
+
+
 .headline-contacts-email,
 .headline-contacts-tel {
     color: var(--color-font-head);
@@ -263,9 +289,16 @@ button {cursor: pointer;}
 
 
 /* =========== стилизация Адреса в Блоке АДРЕС в footer =========== */
+/* ======== Стилизация шрифта Адреса в Блоке АДРЕС в footer ======== */
+.contacts-footer-fontstyle {
+    font-style:normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+}
+
 .footers-contacts-place {
-    /* ------ унаследует от footers --------- */
-    /* ---------------------------------- */
     color: var(--color-light);
 }
 
@@ -273,8 +306,6 @@ button {cursor: pointer;}
 /* == стилизация Контакты в Блоке АДРЕС (почта и телефон) в footer == */
 .footers-contacts-email,
 .footers-contacts-tel {
-    /* ------ унаследует от footers --------- */
-    /* ---------------------------------- */
     color: var(--color-font-footer);
 }
 
