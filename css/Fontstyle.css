@@ -1,0 +1,405 @@
+/* ````````````````` Палитра стилей шрифтов (index.html & portfolio.html ) `````````````````` */
+
+/* `````````````````````````````` index.html ``````````````````````````````*/
+/* ````````````````````````` index.html (header)`````````````````````````*/
+
+
+.index-header-studio {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+
+    color: #212121;
+}
+
+.index-header-portfolio {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+
+    color: #212121;
+}
+
+.index-header-contacts {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+
+    color: #212121;
+}
+
+.index-header-email {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    
+    color: #757575;
+}
+
+.index-header-tel {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+
+    color: #757575;
+}
+/* ~~~~~~~~~~~~~~~~~~~ К О Н Е Ц  index.html (header) ~~~~~~~~~~~~~~~~~~~*/
+
+
+
+
+
+/* ````````````````````````` index.html (footer)`````````````````````````*/
+
+
+.index-footer-address {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71x;
+    letter-spacing: 0.03em;
+    
+    color: #FFFFFF;
+}
+
+.index-footer-email {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71px;
+    letter-spacing: 0.03em;
+    
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.index-footer-tel {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71px;
+    letter-spacing: 0.03em;
+    
+    color: rgba(255, 255, 255, 0.6);
+}
+/* ~~~~~~~~~~~~~~~~~~~~ К О Н Е Ц  index.html (footer) ~~~~~~~~~~~~~~~~~~~~*/
+
+
+
+
+
+
+/* ````````````````````````` index.html (main-hero)`````````````````````````*/
+.hero-titleh1 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    
+    color: #FFFFFF;
+}
+
+.hero-button {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88x;
+   
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    
+    color: #FFFFFF;
+}
+/* ~~~~~~~~~~~~~~~~~ К О Н Е Ц  index.html (main-hero) ~~~~~~~~~~~~~~~~~*/
+
+
+
+
+
+/* ``````````````````````` index.html (main-features)```````````````````````*/
+.features-titleh2 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    
+    color: #212121;
+}
+
+.features-text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    
+    color: #757575;
+}
+/* ~~~~~~~~~~~~~~~~~ К О Н Е Ц  index.html (main-features) ~~~~~~~~~~~~~~~~~*/
+
+
+
+
+
+/* ``````````````````````` index.html (main-activities)```````````````````````*/
+.activities-titleh2 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.67;
+    text-align: center;
+    letter-spacing: 0.03em;
+    
+    color: #212121;
+}
+/* ~~~~~~~~~~~~~~~~~ К О Н Е Ц index.html (main-activities) ~~~~~~~~~~~~~~~~~*/
+
+
+
+/* ``````````````````````` index.html (main-team) ```````````````````````*/
+.team-titleh2 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.67;
+    text-align: center;
+    letter-spacing: 0.03em;
+    
+    color: #212121;
+}
+
+.team-titleh3 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+    letter-spacing: 0.03em;
+    
+    color: #212121;
+}
+
+.team-text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.18;
+    line-height: 19px;
+    /* identical to box height */
+    
+    text-align: center;
+    letter-spacing: 0.03em;
+    
+    color: #757575;
+}
+/* ~~~~~~~~~~~~~~~~~ К О Н Е Ц index.html (main-team) ~~~~~~~~~~~~~~~~~*/
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~ К О Н Е Ц index.html  ~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~ К О Н Е Ц index.html  ~~~~~~~~~~~~~~~~~~~~~~~~~~*/ 
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~ К О Н Е Ц index.html  ~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+
+
+
+
+/* ````````````````````````````` portfolio.html `````````````````````````````*/
+/* ```````````````````````` portfolio.html (header)````````````````````````*/
+
+
+.portfolio-header-studio {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+
+    color: #212121;
+}
+
+.portfolio-header-portfolio {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+
+    color: #212121;
+}
+
+.portfolio-header-contacts {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+
+    color: #212121;
+}
+
+.portfolio-header-email {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+
+    color: #757575;
+}
+
+.portfolio-header-tel {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+
+    color: #757575;
+}
+/* ~~~~~~~~~~~~~~~~~~~ К О Н Е Ц  portfolio.html (header) ~~~~~~~~~~~~~~~~~~~*/
+
+
+
+/* ```````````````````````` portfolio.html (footer)````````````````````````*/
+
+
+
+.portfolio-footer-address {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71x;
+    letter-spacing: 0.03em;
+
+    color: #FFFFFF;
+}
+
+.portfolio-footer-email {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71px;
+    letter-spacing: 0.03em;
+
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.portfolio-footer-tel {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71px;
+    letter-spacing: 0.03em;
+
+    color: rgba(255, 255, 255, 0.6);
+}
+/* ~~~~~~~~~~~~~~~~~~~~ К О Н Е Ц  portfolio.html (footer) ~~~~~~~~~~~~~~~~~~~~*/
+
+
+
+
+
+/* ``````````````````````` portfolio.html (hero) ```````````````````````*/
+.filters {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
+    
+    color: #212121;
+}
+
+.projects-titleh2 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2.0;
+    letter-spacing: 0.06em;
+    
+    color: #212121;
+}
+
+.projects-titles {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.88;
+     letter-spacing: 0.03em;
+    
+    color: #757575;
+}
+
+/* ~~~~~~~~~~~~~~~~~ К О Н Е Ц portfolio.html (hero) ~~~~~~~~~~~~~~~~~*/
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~ К О Н Е Ц portfolio.html  ~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~ К О Н Е Ц portfolio.html  ~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~ К О Н Е Ц portfolio.html  ~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+
+
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~ УНИКАЛЬНЫЕ СТИЛИ  ~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+/* ~~~~~~~ ЛОГОТИП в index.html & portfolio.html в header & footer ~~~~~~~*/
+.index-header-logo,
+.index-footer-logo,
+.portfolio-header-logo,
+.portfolio-footer-logo {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+
+    color: #2196F3;
+}
+
+
+
+
+
+
