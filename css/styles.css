@@ -82,38 +82,37 @@ button {cursor: pointer;}
 /* ==== Выделение цветом активной страници в header в (headline) ===== */
 .navlinks.activlink {
     color: var(--color-button-hover);
+
     /* text-decoration-line:underline; */
     /* color: var(--color-logohover-bkc); */
 }
 
 
-
 /* ========= Стилизация Контакты (почта и телефон) в header ========= */
-/* === Цвет шрифтов (почта и телефон) в header === */
-.headline-contacts-email,
-.headline-contacts-tel {
+.contacts-header {
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+
     color: var(--color-font-head);
 }
 
-/* ==========  Hover & Focus на ссылках и кнопках в header ========= */
+/* ====  Hover & Focus на ссылках и Контактах (почта и телефон) в header === */
 .navlinks.activlink:hover,
 .navlinks.activlink:focus,
 
 .navlinks:hover,
 .navlinks:focus,
 
-.headline-contacts-email:hover,
-.headline-contacts-email:focus,
-
-.headline-contacts-tel:hover,
-.headline-contacts-tel:focus
+.contacts-header:hover,
+.contacts-header:focus
 
 {color: var(--color-logo-links-hover);}
 
 
-/* ===== Active on Hover & Focus на ссылках и кнопках в header ==== */
+/* ===== Active on Hover & Focus на ссылках и Контактах (почта и телефон) в header ==== */
 /* .navlinks:active,
-.headline-contacts-email:active
+.contacts-header:active
 {opacity: 0.5;} */
 
 
@@ -145,39 +144,37 @@ button {cursor: pointer;}
 
 
 
-/* ========================= Стилизация ОСНОВНОГО Блока (mainbase)========================== */
-.mainbase {}
-
-/* .mainportfol {} */
+/* ========================= Стилизация ОСНОВНОГО Блока (main)========================== */
 
 
-/* ============= Стилизация Блок-секции_1 ГЕРОЙ (mainbase-hero) ============= */
-/* ====== Цвет фона в Блок-секции_1 ГЕРОЙ ====== */
-.mainbase-hero {
+/* ============= Стилизация Блок-секции_1 ГЕРОЙ (hero) ============= */
+
+/* ============ Цвет фона в Блок-секции_1 ГЕРОЙ (hero) ============ */
+.hero {
     background-color: var(--color-background-footer);
 }
 
-/* ======= Цвет  и текст заголовка в ГЕРОЙ ======== */
-.mainbase-hero>h1 {
+/* ============= Стилизация заголовка в ГЕРОЙ (hero-title) ======== */
+.hero-title {
     font-weight: 900;
     font-size: 44px;
-    line-height: 1.37;
+    line-height: 1.36;
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
-
+    
     color: var(--color-light);
 }
 
 
-/* ========== Стилизация кнопки в ГЕРОЙ ========== */
-.mainbase-hero-button {
+/* ========== Стилизация кнопки в ГЕРОЙ (hero-button) ========== */
+.hero-button {
     font-family: inherit;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.88;
     /* display: flex; */
-    /* align-items: center; */
+    align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
 
@@ -185,12 +182,13 @@ button {cursor: pointer;}
     background-color: var(--color-logo-links-hover);
 }
 
-/* =======  Hover & Focus на кнопке в ГЕРОЙ======= */
-.mainbase-hero-button:hover,
-.mainbase-hero-button:focus {
+/* =============  Hover & Focus на кнопке в ГЕРОЙ ============= */
+.hero-button:hover,
+.hero-button:focus {
     background-color: var(--color-button-hover);
 }
 
+/* _________________________  К О Н Е Ц Блок-секции_1 ГЕРОЙ (hero) _________________________ */
 
 
 
@@ -284,46 +282,33 @@ button {cursor: pointer;}
 }
 
 
-/* == Замена цвета текста WebStudio (часть Studio - на белую) в footer == */
-.logo-white {
+/* == Замена цвета текста WebStudio (часть Studio - на белую) в footer == */.logo-white {
     color: var(--color-light);
 }
 
 
-/* =========== стилизация Адреса в Блоке АДРЕС в footer =========== */
-/* ======== Стилизация шрифта Адреса в Блоке АДРЕС в footer ======== */
-.contacts-footer-fontstyle {
-    font-style:normal;
+/* ============= Стилизация ВСЕХ строк Блока АДРЕС в footer ============= */
+.addresses {
+    font-style: normal;
     font-weight: 400;
-    font-size: 14px;
-    line-height: 1.71;
-    letter-spacing: 0.03em;
-}
-/* ======== Цвет шрифта Адрес в Блоке АДРЕС в footer ======== */
-.footers-contacts-place {
+        
     color: var(--color-light);
 }
 
-
-/* == Цвет шрифта (почта и телефон) в Блоке АДРЕС  в footer == */
-.footers-contacts-email,
-.footers-contacts-tel {
+/* == Изменение цвета шрифта (почта и телефон) в Блоке АДРЕС  в footer == */
+.color-email-tel {
     color: var(--color-font-footer);
 }
 
-
 /* ======  Hover & Focus на ссылках (почта и телефон) в footer ===== */
-.footers-contacts-email:hover,
-.footers-contacts-email:focus,
-
-.footers-contacts-tel:hover,
-.footers-contacts-tel:focus
+.color-email-tel:hover,
+.color-email-tel:focus
 
 {color: var(--color-logo-links-hover);}
 
 
-/* ===== Active on Hover & Focus на ссылках и кнопках в header ==== */
-/* .footers-contacts:active 
+/* ===== Active on Hover & Focus на ссылках (почта и телефон) в footer ==== */
+/* .color-email-tel:active 
 {opacity: 0.5;} */
 
 /* ____________________________  КОНЕЦ footer ______________________________________ */
