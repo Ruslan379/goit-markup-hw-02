@@ -262,13 +262,9 @@ button {cursor: pointer;}
 
 /* ========== Текст в Наша команда (team-list) > (position) ==========*/
 .position {
-    /* font-family: 'Roboto'; */
-    /* font-style: normal; */
-    /* font-weight: 400; */
     font-size: 16px;
     line-height: 1.19;
-    /* letter-spacing: 0.03em; */
-
+   
     color: #757575;
 }
 
@@ -324,7 +320,7 @@ button {cursor: pointer;}
 /* .color-email-tel:active 
 {opacity: 0.5;} */
 
-/* ____________________________  КОНЕЦ footer ______________________________________ */
+/* ____________________________  К О Н Е Ц  footer ______________________________________ */
 
 
 
@@ -334,54 +330,55 @@ button {cursor: pointer;}
 
 
 
+/* ============== Стилизация Блок-секции_1 ГЕРОЙ (hero) в portfolio.html ============== */
 
-
-
-/* ============= Стилизация ОСНОВНОГО Блока (mainportfol)============== */
-/* .mainbase {} */
-
-.mainportfol {}
-
-
-/* == Стилизация Блок-секции ГЕРОЙ-ПОРТФОЛИО (mainportfol-hero)=== */
-/* ====== Цвет фона в Блок-секции_1 ГЕРОЙ ====== */
-.mainportfol-hero {}
-
-
-/* === Стилизация кнопок в ГЕРОЙ-ССЫЛКИ (mainportfol-hero-filter)=== */
-.mainportfol-hero-filter-button {
+/* ========== Стилизация кнопок в ГЕРОЙ-ССЫЛКИ в (filters) в portfolio.html ==========*/
+.filters {
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: inherit;
     color: inherit;
-    /* color: var(--color-font-main); */
     background-color: var(--color-background-team);
-   
 }
 
-/* ===  Hover & Focus на кнопках в ГЕРОЙ-ССЫЛКИ (mainportfol-hero-filter) === */
-.mainportfol-hero-filter-button:hover,
-.mainportfol-hero-filter-button:focus {
+/* =====  Hover & Focus на кнопках в ГЕРОЙ-ССЫЛКИ в (filters) в portfolio.html ===== */
+.filters:hover,
+.filters:focus {
     background-color: var(--color-logo-links-hover);
 }
 
-
-/* _____________  КОНЕЦ ___ КНОПКИ (mainportfol-hero-fil____________________________ */
-
+/* ____________  К О Н Е Ц кнопки в ГЕРОЙ-ССЫЛКИ в portfolio.html ______________________ */
 
 
 
 
-/* ==================== Стилизация ПРОЕКТЫ (mainportfol-projects) ==================== */
-.mainportfol-projects-lists {}
 
 
-/* === Стилизация Заголовков h2 в (mainportfol-projects-lists) === */
-.mainportfol-projects-list-content>h2 {
-    /* color: inherit; */
+
+
+/* ======================= Стилизация ПРОЕКТЫ-ГЕРОЙ в portfolio.html ======================= */
+
+/* ========== Заголовок проектов в ПРОЕКТЫ (titlе-project) в portfolio.html ==========*/
+.titlе-project {
+    /* font-family: 'Roboto'; */
+    /* font-style: normal; */
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2.0;
+    letter-spacing: 0.06em;
+
     color: var(--color-font-main);
 }
 
-/* ==  == Стилизация Текста p в (mainportfol-projects-lists) ==== */
-.mainportfol-projects-list-content>p {
+/* ========== Заголовок фильтра в ПРОЕКТЫ (titlе-filter) в portfolio.html ==========*/
+.titlе-filter {
+    font-size: 16px;
+    line-height: 1.88;
+
     color: var(--color-font-head);
 }
 
- /* __________________ К о н е ц    ОСНОВНОГО Блока (mainportfol) __________________ */
+ /* __________________ К О Н Е Ц  ОСНОВНОГО Блока в portfolio.html __________________ */

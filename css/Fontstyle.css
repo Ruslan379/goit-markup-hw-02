@@ -140,7 +140,7 @@
     color: #757575;
 }
 /* ~~~~~~~~~~~~ Текст в Наша команда (team) в index.html  ~~~~~~~~~~~~*/
-/* ~~~~~~~  уникальный класс (position) ~~~~~~~*/
+/* ~~~~~~~  уникальный класс (position)+ ~~~~~~~*/
 .team-text {
     font-family: 'Roboto';
     font-style: normal;
@@ -168,7 +168,7 @@
 }
 
 /* ~~~ Заголовок h3 в Наша команда (team) в index.html  ~~~*/
-/* ~~~~~~~  уникальный класс (full-name) ~~~~~~~*/
+/* ~~~~~~~  уникальный класс (full-name)+ ~~~~~~~*/
 .team-titleh3 {
     font-family: 'Roboto';
     font-style: normal;
@@ -181,7 +181,7 @@
     color: #212121;
 }
 /* ~~~~~~~~~~~~~~~~~~~ Кнопки в ГЕРОЙ-ССЫЛКИ в portfolio.html  ~~~~~~~~~~~~~~~~~~~*/
-/* ~~~~~~~  уникальный класс (filters) ~~~~~~~*/
+/* ~~~~~~~  уникальный класс (filters)+ ~~~~~~~*/
 .filters {
     font-family: 'Roboto';
     font-style: normal;
