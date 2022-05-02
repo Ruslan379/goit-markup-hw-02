@@ -19,8 +19,6 @@ body {
     --color-logo-links-hover: #2196F3;
     --color-button-hover: #188CE8;
 /* =============================== */
-    /* --color-logohover-bkc: tomato; */
-/* =================================== */
     color: var(--color-font-main);
     background-color: var(--color-background-main);
 /* =============================== */
@@ -83,8 +81,6 @@ button {cursor: pointer;}
 .navlinks.activlink {
     color: var(--color-button-hover);
 
-    /* text-decoration-line:underline; */
-    /* color: var(--color-logohover-bkc); */
 }
 
 
@@ -108,33 +104,6 @@ button {cursor: pointer;}
 .contacts-header:focus
 
 {color: var(--color-logo-links-hover);}
-
-
-/* ===== Active on Hover & Focus на ссылках и Контактах (почта и телефон) в header ==== */
-/* .navlinks:active,
-.contacts-header:active
-{opacity: 0.5;} */
-
-
-/* ============= ??????? Hover & Focus on LOGO ?????????? ========== */
-/* .logo:hover,
-.logo:focus {
-    color: var(--color-dark);
-    background-color: var(--color-logohover-bkc);
-} */
-
-/* .logo-black:hover,
-.logo-black:focus {
-    color: var(--color-logo-links-hover);
-    background-color: var(--color-logohover-bkc);
-} */
-
-/* .logo-white:hover,
-.logo-white:focus {
-    color: green;
-    background-color: var(--color-logohover-bkc);
-} */
-/* ================ ???????????????????????????????? ============== */
 
 /* _____________________________  К О Н Е Ц   (header) _____________________________ */
 
@@ -193,6 +162,9 @@ button {cursor: pointer;}
 
 
 
+
+
+
 /* ======= Стилизация Блок-секция_2 Наши особенности (features) ======= */
 
 /* ==== Стилизация заголовка h3 в Наши особенности (features) ====*/
@@ -237,14 +209,15 @@ button {cursor: pointer;}
 
 
 
+
 /* ===================== Стилизация Блок-секция_4 Наша команда (team) ===================== */
+
 /* === Стилизация Заголовка h2 в Блок-секция_4 Наша команда (team) выполненна выше === */
 
 /* =========== Цвет фона Блок-секция_4 Наша команда (team) =========== */
 .team {
     background-color: var(--color-background-team);
 }
-
 
 /* ======= Заголовок h3 в Наша команда (team-list) > (full-name)  ======*/
 .full-name {
@@ -258,7 +231,6 @@ button {cursor: pointer;}
 
     color: #212121;
 }
-
 
 /* ========== Текст в Наша команда (team-list) > (position) ==========*/
 .position {
@@ -314,11 +286,6 @@ button {cursor: pointer;}
 .color-email-tel:focus
 
 {color: var(--color-logo-links-hover);}
-
-
-/* ===== Active on Hover & Focus на ссылках (почта и телефон) в footer ==== */
-/* .color-email-tel:active 
-{opacity: 0.5;} */
 
 /* ____________________________  К О Н Е Ц  footer ______________________________________ */
 
@@ -381,4 +348,4 @@ button {cursor: pointer;}
     color: var(--color-font-head);
 }
 
- /* __________________ К О Н Е Ц  ОСНОВНОГО Блока в portfolio.html __________________ */
+/* __________________ К О Н Е Ц  ОСНОВНОГО Блока в portfolio.html __________________ */
