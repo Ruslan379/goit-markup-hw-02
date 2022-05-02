@@ -98,7 +98,7 @@
 }
 
 /* ~~~~~~~~~~~~~~~~ Кнопка "Заказать услугу" в HERO в index.html  ~~~~~~~~~~~~~~~~*/
-/* ~~~~~~~  уникальный класс (button-hero) ~~~~~~~*/
+/* ~~~~~~~  уникальный класс (button-hero)+ ~~~~~~~*/
 .hero-button {
     font-family: 'Roboto';
     font-style: normal;
@@ -115,7 +115,7 @@
 }
 
 /* ~~~~~~~~~~~~ Заголовок h2 в ОСОБЕННОСТИ (features) в index.html  ~~~~~~~~~~~~*/
-/* ~~~~~~~  уникальный класс (title-features) ~~~~~~~*/
+/* ~~~~~~~  уникальный класс (title-features)+ ~~~~~~~*/
 .features-titleh2 {
     font-family: 'Roboto';
     font-style: normal;
@@ -128,7 +128,7 @@
     color: #212121;
 }
 /* ~~~~~~~~~~~~ Текст в ОСОБЕННОСТИ (features) в index.html  ~~~~~~~~~~~~*/
-/* ~~~~~~~  уникальный класс (text-features) ~~~~~~~*/
+/* ~~~~~~~  уникальный класс (text-features)+ ~~~~~~~*/
 .features-text {
     font-family: 'Roboto';
     font-style: normal;
@@ -153,7 +153,7 @@
 }
 
 /* ~~~ Заголовки h2 в ЧЕМ МЫ ЗАНИМАЕМСЯ (activities) и в Наша команда (team) в index.html  ~~~*/
-/* ~~~~~~~  уникальный класс (titles) ~~~~~~~*/
+/* ~~~~~~~  уникальный класс (titles)+ ~~~~~~~*/
 .activities-titleh2,
 .team-titleh2 {
     font-family: 'Roboto';

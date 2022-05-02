@@ -147,7 +147,7 @@ button {cursor: pointer;}
 /* ========================= Стилизация ОСНОВНОГО Блока (main)========================== */
 
 
-/* ============= Стилизация Блок-секции_1 ГЕРОЙ (hero) ============= */
+/* =================== Стилизация Блок-секции_1 ГЕРОЙ (hero) =================== */
 
 /* ============ Цвет фона в Блок-секции_1 ГЕРОЙ (hero) ============ */
 .hero {
@@ -188,84 +188,97 @@ button {cursor: pointer;}
     background-color: var(--color-button-hover);
 }
 
-/* _________________________  К О Н Е Ц Блок-секции_1 ГЕРОЙ (hero) _________________________ */
+/* _________________________  К О Н Е Ц   Блок-секции_1 ГЕРОЙ (hero) _________________________ */
 
 
 
 
+/* ======= Стилизация Блок-секция_2 Наши особенности (features) ======= */
 
-/* = Стилизация Блок-секция_2 Наши особенности (mainbase-features) = */
-.mainbase-features {}
+/* ==== Стилизация заголовка h3 в Наши особенности (features) ====*/
+.features>h3 {
+    font-weight: 700;
+    font-size: inherit;
+    line-height: 1.14;
+    /* text-transform: uppercase; */
 
-.mainbase-features-list {}
-
-
-/* === Стилизация Заголовков h3 в (mainbase-features) === */
-.mainbase-features-list-content>h3 {
-    /* color: inherit; */
     color: var(--color-font-main);
-    
-}
+   }
 
-/* ==  == Стилизация Текста p в (mainbase-features) ==== */
-.mainbase-features-list-content>p {
+/* ==== Стилизация Текста p в (в Наши особенности (features) ==== */
+.features>p {
+
     color: var(--color-font-head);
 }
 
+/* ______________________  К О Н Е Ц Блок-секция_2 Наши особенности ______________________ */
 
 
 
 
 
-/* = Стилизация Блок-секция_3 Чем мы занимаемся (mainbase-activities) = */
-.mainbase-activities {}
-
-.mainbase-activities-list {}
 
 
-/* === Стилизация Заголовка h2 в (mainbase-activities) === */
-.mainbase-activities>h2 {
-   /* color: red;
-    font-size: 50px; */
+
+/* ============== Стилизация Блок-секция_3 Чем мы занимаемся (activities) ============== */
+/* === Стилизация Заголовка h2 в Блок-секция_3 Чем мы занимаемся (activities) и в Блок-секция_4 Наша команда (team) === */
+.titles {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.67;
+    text-align: center;
 }
 
+/* ___________________  К О Н Е Ц Блок-секция_3 Чем мы занимаемся ______________________ */
 
 
 
 
 
-/* = Стилизация Блок-секция_4 Наша команда (mainbase-team) = */
-.mainbase-team {
+
+
+/* ===================== Стилизация Блок-секция_4 Наша команда (team) ===================== */
+/* === Стилизация Заголовка h2 в Блок-секция_4 Наша команда (team) выполненна выше === */
+
+/* =========== Цвет фона Блок-секция_4 Наша команда (team) =========== */
+.team {
     background-color: var(--color-background-team);
 }
 
-.mainbase-team-lists {}
 
+/* ======= Заголовок h3 в Наша команда (team-list) > (full-name)  ======*/
+.full-name {
+    /* font-family: 'Roboto'; */
+    /* font-style: normal; */
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    /* letter-spacing: 0.03em; */
 
-/* === Стилизация Заголовка h2 в (mainbase-team) === */
-.mainbase-team>h2 {
-    /* color: red;
-    font-size: 50px; */
+    color: #212121;
 }
 
-/* === Стилизация Заголовков h3 в (mainbase-team) === */
-.mainbase-team-list-content>h3 {
-    /* color: inherit; */
-    color: var(--color-font-main);
+
+/* ========== Текст в Наша команда (team-list) > (position) ==========*/
+.position {
+    /* font-family: 'Roboto'; */
+    /* font-style: normal; */
+    /* font-weight: 400; */
+    font-size: 16px;
+    line-height: 1.19;
+    /* letter-spacing: 0.03em; */
+
+    color: #757575;
 }
 
-/* ==  == Стилизация Текста p в (mainbase-team) ==== */
-.mainbase-team-list-content>p {
-    color: var(--color-font-head);
-}
-
-/* = Цвет фона Блок-секция_4 Наша команда (mainbase-team) = */
-.mainbase-team-list {
+/* ======= Цвет фона карточки члена команды (team-list) ======= */
+.team-list {
     background-color: var(--color-background-main);
 }
+/* ___________________  К О Н Е Ц  Блок-секция_4 Наша команда ______________________ */
 
-
-/* __________++________ К о н е ц   ОСНОВНОГО Блока (mainbase) _______++___________ */
+/* ____________________ К О Н Е Ц  ОСНОВНОГО Блока (main) ____________________ */
 
 
 
