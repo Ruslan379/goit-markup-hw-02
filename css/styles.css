@@ -39,13 +39,13 @@ body {
 .visually-hidden {
     visibility: hidden;
     pointer-events: none;
-    team-position: absolute;
+    position: absolute;
 }
 
 
 /* === Стилизация Заголовка h2 в Блок-секция_3 Чем мы занимаемся (activities)
  и в Блок-секция_4 Наша команда (team) === */
-.titles {
+.section-titles {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.67;
@@ -62,7 +62,7 @@ body {
 .links {text-decoration: none;}
 
 /* --- Задаем ВСЕМ кнопкам тип курсора pointer ------ */
-button {cursor: pointer;}
+.buttons {cursor: pointer;}
 
 /* _____________________________  К О Н Е Ц Типографика _____________________________ */
 
@@ -278,7 +278,8 @@ button {cursor: pointer;}
 }
 
 
-/* == Замена цвета текста WebStudio (часть Studio - на белую) в footer == */.logo-white {
+/* == Замена цвета текста WebStudio (часть Studio - на белую) в footer == */
+.logo-white {
     color: var(--color-light);
 }
 
@@ -286,19 +287,20 @@ button {cursor: pointer;}
 /* ============= Стилизация ВСЕХ строк Блока АДРЕС в footer ============= */
 .addresses {
     font-style: normal;
-    font-weight: 400;
         
     color: var(--color-light);
 }
 
 /* == Изменение цвета шрифта (почта и телефон) в Блоке АДРЕС  в footer == */
-.color-email-tel {
+.footers-contact-list {
+    font-style: normal;
+    
     color: var(--color-font-footer);
 }
 
 /* ======  Hover & Focus на ссылках (почта и телефон) в footer ===== */
-.color-email-tel:hover,
-.color-email-tel:focus
+.footers-contact-list:hover,
+.footers-contact-list:focus
 
 {color: var(--color-logo-links-hover);}
 
