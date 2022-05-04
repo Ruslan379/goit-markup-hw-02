@@ -25,9 +25,9 @@
             <a href="./index.html" class="logo">Web<span class="logo-black">Studio</span></a>
 
             <ul>
-                <li><a href="./index.html" class="navlinks activlink">Студия</a></li>
-                <li><a href="./portfolio.html" class="navlinks">Портфолио</a></li>
-                <li><a href="" class="navlinks">Контакты</a></li>
+                <li><a href="./index.html" class="nav-links activlink">Студия</a></li>
+                <li><a href="./portfolio.html" class="nav-links">Портфолио</a></li>
+                <li><a href="" class="nav-links">Контакты</a></li>
             </ul>
 
         </nav>
@@ -49,86 +49,70 @@
             </section>
         
         <!-- ======= Блок-секция_2 Наши особенности (mainbase-features) ======= -->    
-            <section>
-                <!-- === Этот заголовок надо скрыть === -->
-                <h2 style="opacity: 0.2;">Наши особенности</h2>
-                <!-- <h2 style="display: none;">Наши особенности</h2> -->
-                <!-- <h2 style="visibility: hidden">Наши особенности</h2> -->
-
+            <section class="features">
+                <!-- === Этот заголовок скрыт === -->
+                <h2 class="visually-hidden">Наши особенности</h2>
+               
                 <ul>
                     <li>
-                        <a href="" class="features">
-                            <h3>Внимание к деталям</h3>
-                            <p>
-                                Идейные соображения, а также начало повседневной работы по формированию позиции.
-                            </p>
-                        </a>    
+                        <h3 class="features-title">Внимание к деталям</h3>
+                        <p class="features-description">
+                            Идейные соображения, а также начало повседневной работы по формированию позиции.
+                        </p>    
                     </li>
 
                     <li>
-                        <a href="" class="features">
-                            <h3>Пунктуальность</h3>
-                            <p>
-                                Задача организации, в особенности же рамки и место обучения кадров влечет за собой.
-                            </p>
-                        </a>
+                        <h3 class="features-title">Пунктуальность</h3>
+                        <p class="features-description">
+                            Задача организации, в особенности же рамки и место обучения кадров влечет за собой.
+                        </p>
                     </li>
 
                     <li>
-                        <a href="" class="features">
-                            <h3>Планирование</h3>
-                            <p>
-                                Равным образом консультация с широким активом в значительной степени обуславливает.
-                            </p>
-                        </a>
+                        <h3 class="features-title">Планирование</h3>
+                        <p class="features-description">
+                            Равным образом консультация с широким активом в значительной степени обуславливает.
+                        </p>
                     </li>
 
                     <li>
-                        <a href="" class="features">
-                            <h3>Современные технологии</h3>
-                            <p>
-                                Значимость этих проблем настолько очевидна, что реализация плановых заданий.
-                            </p>
-                        </a>
+                        <h3 class="features-title">Современные технологии</h3>
+                        <p class="features-description">
+                            Значимость этих проблем настолько очевидна, что реализация плановых заданий.
+                        </p>
                     </li>
                 </ul>
 
             </section>
         
         <!-- ======= Блок-секция_3 Чем мы занимаемся (mainbase-activities) ======= --> 
-            <section>
+            <section class="activities">
 
                 <h2 class="titles">Чем мы занимаемся</h2>
         
                 <ul>
                     <li>
-                        <a href="">
                             <img 
                             src="./images/box_1.jpg" 
                             alt="Проработка технического задания"
                             width="370" 
                             />
-                        </a>
                     </li>
 
                     <li>
-                        <a href="">
                             <img 
                             src="./images/box_2.jpg" 
                             alt="Создание макета дизайна сайта" 
                             width="370" 
                             />
-                        </a>
                     </li>
 
                     <li>
-                        <a href="">
                             <img 
                             src="./images/box_3.jpg" 
                             alt="Наполнение контентом. Тестирование" 
                             width="370" 
                             />
-                        </a>
                     </li>
                 </ul>
             </section>
@@ -139,48 +123,40 @@
                 <h2 class="titles">Наша команда</h2>
         
                 <ul>
-                    <li class="team-list">
-                        <a href="">
-                            <img src="./images/Igor_Demyanenko.jpg" 
-                            alt="Игорь Демьяненко" 
-                            width="270" 
-                            />
-                            <h3 class="full-name">Игорь Демьяненко</h3>
-                            <p class="position">Product Designer</p>
-                        </a>
+                    <li class="team-item lists">
+                        <img src="./images/Igor_Demyanenko.jpg" 
+                        alt="Игорь Демьяненко" 
+                        width="270" 
+                        />
+                        <h3 class="team-name">Игорь Демьяненко</h3>
+                        <p class="team-position">Product Designer</p>
                     </li>
 
-                    <li class="team-list">
-                        <a href="">
-                            <img src="./images/Olga_Repina.jpg" 
-                            alt="Ольга Репина" 
-                            width="270" 
-                            />
-                            <h3 class="full-name">Ольга Репина</h3>
-                            <p class="position">Frontend Developer</p>
-                        </a>
+                    <li class="team-item lists">
+                        <img src="./images/Olga_Repina.jpg" 
+                        alt="Ольга Репина" 
+                        width="270" 
+                        />
+                        <h3 class="full-name">Ольга Репина</h3>
+                        <p class="team-position">Frontend Developer</p>
                     </li>
 
-                    <li class="team-list">
-                        <a href="">
-                            <img src="./images/Nikolai_Tarasov.jpg" 
-                            alt="Николай Тарасов" 
-                            width="270" 
-                            />
-                            <h3 class="full-name">Николай Тарасов</h3>
-                            <p class="position">Marketing</p>
-                        </a>
+                    <li class="team-item lists">
+                        <img src="./images/Nikolai_Tarasov.jpg" 
+                        alt="Николай Тарасов" 
+                        width="270" 
+                        />
+                        <h3 class="full-name">Николай Тарасов</h3>
+                        <p class="team-position">Marketing</p>
                     </li>
                     
-                    <li class="team-list">
-                        <a href="">
-                            <img src="./images/Mikhai_Ermakov.jpg" 
-                            alt="Михаил Ермаков" 
-                            width="270" 
-                            />
-                            <h3 class="full-name">Михаил Ермаков</h3>
-                            <p class="position">UI Designer</p>
-                        </a>
+                    <li class="team-item lists">
+                        <img src="./images/Mikhai_Ermakov.jpg" 
+                        alt="Михаил Ермаков" 
+                        width="270" 
+                        />
+                        <h3 class="full-name">Михаил Ермаков</h3>
+                        <p class="team-position">UI Designer</p>
                     </li>
                 </ul>
             </section>

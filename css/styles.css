@@ -1,26 +1,30 @@
-body {
-/* ============ ПЕРЕМЕННЫЕ ============ */
+:root {
+    /* ============ ПЕРЕМЕННЫЕ ============ */
     --color-font-main: #212121;
     --color-font-head: #757575;
     --color-font-footer: rgba(255, 255, 255, 0.6);
     /* --color-font-footer: #FFFFFF99; */
-/* =============================== */
-    --color-background-main: #FFFFFF;
+    /* =============================== */
     --color-background-another: #E5E5E5;
     --color-background-team: #F5F4FA;
     --color-background-footer: #2F303A;
-/* =============================== */
+    /* =============================== */
     --color-light: #FFFFFF;
     --color-dark: #000000;
-/* =============================== */
+    /* =============================== */
     --color-border-line: #ECECEC;
     --color-borders-portfolio: #EEEEEE;
-/* =============================== */
+    /* =============================== */
     --color-logo-links-hover: #2196F3;
     --color-button-hover: #188CE8;
-/* =============================== */
+    /* =============================== */
+}
+
+
+body {
+
     color: var(--color-font-main);
-    background-color: var(--color-background-main);
+    background-color: var(-color-light);
 /* =============================== */
     font-family: Roboto, Arial, Helvetica, sans-serif;
     font-size: 14px;
@@ -29,22 +33,38 @@ body {
 }
 
 
+/* ============= Типографика - ГЛОБАЛЬНАЯ Стилизация некоторых элементов ============= */
+
+/* ================ Скрытие заголовков (visually-hidden) ================ */
+.visually-hidden {
+    visibility: hidden;
+    pointer-events: none;
+    team-position: absolute;
+}
 
 
+/* === Стилизация Заголовка h2 в Блок-секция_3 Чем мы занимаемся (activities)
+ и в Блок-секция_4 Наша команда (team) === */
+.titles {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.67;
+    text-align: center;
+}
 
-
-/* ======= Типографика - ГЛОБАЛЬНАЯ Стилизация некоторых элементов ======= */
 
 /* --------- Убираем точки со ВСЕХ списков --------- */
-ul {list-style-type: none;}
+/* ul {list-style-type: none;} */
+.lists {list-style-type: none;}
 
 /* ------ Убираем подчеркивание со ВСЕХ ссылок ------ */
-a {text-decoration: none;}
+/* a {text-decoration: none;} */
+.links {text-decoration: none;}
 
 /* --- Задаем ВСЕМ кнопкам тип курсора pointer ------ */
 button {cursor: pointer;}
 
-
+/* _____________________________  К О Н Е Ц Типографика _____________________________ */
 
 
 
@@ -69,7 +89,7 @@ button {cursor: pointer;}
 
 
 /* ==== Стилизация Кнопок Основного раздела навигации в header ===== */
-.navlinks {
+.nav-links {
     font-weight: 500;
     line-height: 1.14;
     letter-spacing: 0.02em;
@@ -78,7 +98,7 @@ button {cursor: pointer;}
 }
 
 /* ==== Выделение цветом активной страници в header в (headline) ===== */
-.navlinks.activlink {
+.nav-links.activlink {
     color: var(--color-button-hover);
 
 }
@@ -94,11 +114,11 @@ button {cursor: pointer;}
 }
 
 /* ====  Hover & Focus на ссылках и Контактах (почта и телефон) в header === */
-.navlinks.activlink:hover,
-.navlinks.activlink:focus,
+.nav-links.activlink:hover,
+.nav-links.activlink:focus,
 
-.navlinks:hover,
-.navlinks:focus,
+.nav-links:hover,
+.nav-links:focus,
 
 .contacts-header:hover,
 .contacts-header:focus
@@ -168,17 +188,16 @@ button {cursor: pointer;}
 /* ======= Стилизация Блок-секция_2 Наши особенности (features) ======= */
 
 /* ==== Стилизация заголовка h3 в Наши особенности (features) ====*/
-.features>h3 {
-    font-weight: 700;
+.features-title {
     font-size: inherit;
     line-height: 1.14;
-    /* text-transform: uppercase; */
+    text-transform: uppercase;
 
     color: var(--color-font-main);
    }
 
 /* ==== Стилизация Текста p в (в Наши особенности (features) ==== */
-.features>p {
+.features-description {
 
     color: var(--color-font-head);
 }
@@ -193,13 +212,10 @@ button {cursor: pointer;}
 
 
 /* ============== Стилизация Блок-секция_3 Чем мы занимаемся (activities) ============== */
-/* === Стилизация Заголовка h2 в Блок-секция_3 Чем мы занимаемся (activities) и в Блок-секция_4 Наша команда (team) === */
-.titles {
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.67;
-    text-align: center;
-}
+
+/* === Стилизация Заголовка h2 в Блок-секция_3 Чем мы занимаемся (activities)
+вынесен в Типографику === */
+
 
 /* ___________________  К О Н Е Ц Блок-секция_3 Чем мы занимаемся ______________________ */
 
@@ -212,38 +228,37 @@ button {cursor: pointer;}
 
 /* ===================== Стилизация Блок-секция_4 Наша команда (team) ===================== */
 
-/* === Стилизация Заголовка h2 в Блок-секция_4 Наша команда (team) выполненна выше === */
+/* === Стилизация Заголовка h2 в Блок-секция_4 Наша команда (team) 
+вынесен в Типографику === */
 
 /* =========== Цвет фона Блок-секция_4 Наша команда (team) =========== */
 .team {
     background-color: var(--color-background-team);
 }
 
-/* ======= Заголовок h3 в Наша команда (team-list) > (full-name)  ======*/
-.full-name {
-    /* font-family: 'Roboto'; */
-    /* font-style: normal; */
+/* ======= Заголовок h3 в Наша команда (team-item) > (team-name)  ======*/
+.team-name {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.19;
     text-align: center;
-    /* letter-spacing: 0.03em; */
 
     color: #212121;
 }
 
-/* ========== Текст в Наша команда (team-list) > (position) ==========*/
-.position {
+/* ========== Текст в Наша команда (team-item) > (team-position) ==========*/
+.team-position {
     font-size: 16px;
     line-height: 1.19;
    
     color: #757575;
 }
 
-/* ======= Цвет фона карточки члена команды (team-list) ======= */
-.team-list {
-    background-color: var(--color-background-main);
+/* ======= Цвет фона карточки члена команды (team-item) ======= */
+.team-item {
+    background-color: var(--color-light);
 }
+
 /* ___________________  К О Н Е Ц  Блок-секция_4 Наша команда ______________________ */
 
 /* ____________________ К О Н Е Ц  ОСНОВНОГО Блока (main) ____________________ */
@@ -299,8 +314,8 @@ button {cursor: pointer;}
 
 /* ============== Стилизация Блок-секции_1 ГЕРОЙ (hero) в portfolio.html ============== */
 
-/* ========== Стилизация кнопок в ГЕРОЙ-ССЫЛКИ в (filters) в portfolio.html ==========*/
-.filters {
+/* ========== Стилизация кнопок в ГЕРОЙ-ССЫЛКИ в (btn-filters) в portfolio.html ==========*/
+.btn-filters {
     font-family: inherit;
     font-weight: 500;
     font-size: 16px;
@@ -311,10 +326,20 @@ button {cursor: pointer;}
     background-color: var(--color-background-team);
 }
 
-/* =====  Hover & Focus на кнопках в ГЕРОЙ-ССЫЛКИ в (filters) в portfolio.html ===== */
-.filters:hover,
-.filters:focus {
+/* == Выделение цветом активной кнопки в ГЕРОЙ-ССЫЛКИ в (btn-filters) в portfolio.html === */
+.btn-filters.activlink {
+    background-color: var(--color-button-hover);
+    color: var(--color-light);
+}
+
+/* =====  Hover & Focus на кнопках в ГЕРОЙ-ССЫЛКИ в (btn-filters) в portfolio.html ===== */
+.btn-filters.activlink:hover,
+.btn-filters.activlink:focus,
+
+.btn-filters:hover,
+.btn-filters:focus {
     background-color: var(--color-logo-links-hover);
+    color: var(--color-light);
 }
 
 /* ____________  К О Н Е Ц кнопки в ГЕРОЙ-ССЫЛКИ в portfolio.html ______________________ */
