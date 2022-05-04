@@ -23,7 +23,7 @@
 body {
 
     color: var(--color-font-main);
-    background-color: var(-color-light);
+    background-color: var(--color-light);
 /* =============================== */
     font-family: Roboto, Arial, Helvetica, sans-serif;
     font-size: 14px;
