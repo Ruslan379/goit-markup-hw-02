@@ -1,9 +1,8 @@
 :root {
-    /* ============ ПЕРЕМЕННЫЕ ============ */
+    /* ============ ПЕРЕМЕННЫЕ ЦВЕТА ============ */
     --color-font-main: #212121;
     --color-font-head: #757575;
     --color-font-footer: rgba(255, 255, 255, 0.6);
-    /* --color-font-footer: #FFFFFF99; */
     /* =============================== */
     --color-background-another: #E5E5E5;
     --color-background-team: #F5F4FA;
@@ -17,7 +16,7 @@
     /* =============================== */
     --color-logo-links-hover: #2196F3;
     --color-button-hover: #188CE8;
-    /* =============================== */
+    /* ========================================== */
 }
 
 
@@ -105,7 +104,7 @@ body {
 
 
 /* ========= Стилизация Контакты (почта и телефон) в header ========= */
-.contacts-header {
+.header-contacts-link {
     font-weight: 500;
     line-height: 1.14;
     letter-spacing: 0.02em;
@@ -120,8 +119,8 @@ body {
 .nav-links:hover,
 .nav-links:focus,
 
-.contacts-header:hover,
-.contacts-header:focus
+.header-contacts-link:hover,
+.header-contacts-link:focus
 
 {color: var(--color-logo-links-hover);}
 
@@ -292,15 +291,15 @@ body {
 }
 
 /* == Изменение цвета шрифта (почта и телефон) в Блоке АДРЕС  в footer == */
-.footers-contact-list {
+.footers-contact-link {
     font-style: normal;
     
     color: var(--color-font-footer);
 }
 
 /* ======  Hover & Focus на ссылках (почта и телефон) в footer ===== */
-.footers-contact-list:hover,
-.footers-contact-list:focus
+.footers-contact-link:hover,
+.footers-contact-link:focus
 
 {color: var(--color-logo-links-hover);}
 
@@ -357,8 +356,6 @@ body {
 
 /* ========== Заголовок проектов в ПРОЕКТЫ (titlе-project) в portfolio.html ==========*/
 .titlе-project {
-    /* font-family: 'Roboto'; */
-    /* font-style: normal; */
     font-weight: 700;
     font-size: 18px;
     line-height: 2.0;
